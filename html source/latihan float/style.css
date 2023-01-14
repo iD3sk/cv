@@ -1,0 +1,169 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+body{background-color: rgb(234, 234, 234);
+    background-image: url(simple-pattern.jpg);
+color: rgb(61, 61, 61);
+font-family: arial;}
+
+
+
+
+
+
+.container
+    {box-sizing: border-box;
+    background-color: white;
+    width: 1200px;
+    margin: auto;}
+
+
+
+
+
+.header{padding: 20px;
+padding-bottom: 10px;}
+.header .judul
+        {font-weight: bold;
+        font-size: 48px;}
+.header ul a 
+    {display: inline-block;
+    margin-top: 20px;   
+    padding: 5px;}
+    
+    .header a:link{color: orange;}
+    .header a:hover{background-color: rgb(61, 61, 247);
+                    color: white;}
+
+
+
+
+
+.heroimage
+    {border-top: solid 5px orange;
+    border-bottom: solid 5px rgb(83, 54, 33);
+    background-image: url(coffe.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position-y: center;}
+
+
+
+
+
+    
+.content
+    {width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;}
+
+
+
+
+.main
+    {box-sizing: border-box;
+    width: 720px;
+    padding: 20px;
+    border-right: solid 3px black;
+    float: left;}
+.main .h2
+    {font-weight: bold;
+    font-size: 40px;}
+.main .penulis
+    {font-weight: lighter;
+    font-size: 11px;}
+
+.main .penulis a:link{color: orange;}
+.main .penulis a:hover
+    {background-color: rgb(61, 61, 247);
+    color:white;}
+
+
+
+
+
+
+.main .paragraf
+    {margin-top: 20px;
+        margin-bottom: 40px;
+    padding: 5px;}
+.main .paragraf p
+    {text-indent: 40px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 140%;}
+
+
+
+
+
+
+.sidebar
+    {box-sizing: border-box;
+    width: 400px;
+    padding: 20px;
+    border: solid 2px orange;
+    float: right;}
+
+.sidebar img 
+    {width: 100px;
+    margin-right: 10px;
+    float: left;}
+
+
+
+.clear
+    {clear: both;}
+
+
+
+
+.footer
+    {padding: 15px;}
+
+.footer
+    {box-sizing: border-box;
+    margin: auto;
+    background-color: rgb(61, 61, 61);}
+
+.text
+    {color: rgb(234, 234, 234);
+    text-align: center;
+    font-size: 11px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
